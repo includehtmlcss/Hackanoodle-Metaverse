@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Book Hotels</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./fav.png" />
+    <script
+      src="https://kit.fontawesome.com/1fc58907cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-header">
+        <img class="logo img" src="GOMeta.png" />
+        <!-- <h1 class="logo">E-STORE</h1> -->
+      </div>
+      <div class="page-header">
+        <h1 class="page-name">A visit to remember forever!!</h1>
+      </div>
+    </nav>
+    <div class="overlay"></div>
+    <div class="image"></div>
+    <div class="main">
+      <div class="welcome-signin">
+        <div class="form-container">
+          <h2>Let's Book Your Room!</h2>
+          
+          <form method="get">
+            <p class="field">Name:</p>
+            <input
+              class="input-area"
+              type="name"
+              placeholder="Full Name"
+            />
+            <p class="field">Check-In:</p>
+            <input
+              class="input-area"
+              type="datetime"
+              placeholder="dd-mm-yyyy"
+            />
+            <p class="field">Check-Out:</p>
+            <input
+              class="input-area"
+              type="datetime"
+              placeholder="dd-mm-yyyy"
+            />
+            <p class="field">No. of person</p>
+            <input
+              class="input-area"
+              type="number"
+              placeholder="How many people are you with..."
+            />
+            <p class="field">No. of Rooms</p>
+            <input
+              class="input-area"
+              type="number"
+              placeholder="Number of rooms you want..."
+            />
+            <p class="field">Any suggestions...</p>
+            <input
+              class="input-area"
+              type="text"
+              placeholder="Any message you want to convey to the Hotels"
+            />
+            <div class="btn-container">
+              <a href="/books.html">
+                <div class="submit-btn">Submit</div>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <button class="logout-btn" onclick="window.location.href='./index.html';">
+      <i class="fa fa-sign-out"></i>
+      <p>Sign Out</p>
+    </button>
+    <!-- <script src="./script.js"></script> -->
+  </body>
+</html>
